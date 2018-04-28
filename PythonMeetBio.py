@@ -33,3 +33,12 @@ def FrequencyMap1(Text, k):
             freq [Pattern] += 1
     return freq
 print (FrequencyMap1 ("CGATATATCCATAGATCGTAG", 3))
+
+def Reverse(Pattern):
+    # your code here
+    a = list(Pattern)
+    a.reverse()
+    rev = ''
+    for cha in a:
+        rev += cha
+    return rev 
